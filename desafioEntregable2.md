@@ -1,5 +1,5 @@
 # Funcionalidades principales:
- La clase ProductManager administra una lista de productos almacenados en un archivo JSON. Proporciona métodos para agregar, actualizar, eliminar y recuperar productos del archivo. También valida los productos antes de agregarlos o actualizarlos para garantizar que todos los campos obligatorios estén presentes y que el código del producto sea único.
+ La clase ProductManager administra una lista de productos almacenados en un archivo JSON. Proporciona métodos para agregar, actualizar, eliminar y recuperar productos del archivo. También valida los productos antes de agregarlos o actualizarlos para garantizar que todos los campos obligatorios estén presentes y que el 'code' del producto sea único.
 
 ## Métodos:
  #validateProduct: valida que todos los campos obligatorios estén presentes y que el 'code' del producto sea único.
