@@ -37,7 +37,7 @@ class ProductManager {
   getProducts = async () => {
     try {
       return JSON.parse(
-        await fs.promises.readFile(this.#path, this, this.#format)
+        await fs.promises.readFile(this.#path, this.#format)
       );
     } catch (error) {
       console.log("error: archivo no encontrado");
